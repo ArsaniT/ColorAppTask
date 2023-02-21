@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body:InkWell(
           onTap: (){
-            ///
+            ///The Random Color Function
             setState(() {
               colorCount= random.nextInt(colorList.length);
             });
